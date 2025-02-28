@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+﻿@using Syncfusion.EJ2
+@using Syncfusion.EJ2.Grids
+@using Syncfusion.EJ2.Navigations;
+
+
+
+
+<h2>RemoteData</h2>
+<div id="modes"></div>
+<div id="TreeGrid"></div>
+
+<script>
+    ej.treegrid.TreeGrid.Inject(ej.treegrid.Filter);
+
+    var dropdata = [
+        { id: 'Parent', mode: 'Parent' },
+        { id: 'Child', mode: 'Child' },
+        { id: 'Both', mode: 'Both' },
+        { id: 'None', mode: 'None' },
+    ];
+    var data = new ej.data.DataManager({
+        url: "/Home/DataSource",
+        adaptor: new ej.data.UrlAdaptor
+    });
+
+    var listObj = new ej.dropdowns.DropDownList({
+        dataSource: dropdata,
+        fields: { text: 'mode', value: 'id' },
+        value: 'Parent',
+        change: onChange
+    });
+    listObj.appendTo('#modes');
+
+    var treeGridObj = new ej.treegrid.TreeGrid({
+        dataSource: data,
+        idMapping: 'TaskId',
+        parentIdMapping: 'ParentId',
+        hasChildMapping: 'isParent',
+        loadChildOnDemand: false,
+        height: 275,
+        allowFiltering: true,
+        filterSettings: { type: 'Menu', mode: 'Child' },
+        treeColumnIndex: 1,
+        columns: [
+            { field: 'TaskId', headerText: 'Task ID', width: 75, textAlign: 'Right' },
+            { field: 'TaskName', headerText: 'Task Name', width: 120, textAlign: 'Left' },
+            {
+                field: 'Duration', headerText: 'Duration', width: 90, textAlign: 'Right', type: 'date', format: 'yMd'
+            }
+        ]
+    });
+
+    treeGridObj.appendTo('#TreeGrid');
+
+    function onChange(e) {
+        let mode = e.value;
+        (treeGridObj).filterSettings.hierarchyMode = mode;
+
+        var param = (treeGridObj).query.params;
+        var filterParam_inx = param.findIndex(x => x.key == 'filter_mode');
+
+        (treeGridObj).query.params = param.splice(filterParam_inx);
+
+        (treeGridObj).query.addParams("filter_mode", mode);
+        treeGridObj.clearFiltering();
+    }
+</script>
+
+
+

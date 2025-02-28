@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|d:\\filter sample\\javascript-treegrid-databinding-with-urladaptor\\javascript url adaptor\\remotesave\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|solutionrelative:remotesave\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|d:\\filter sample\\javascript-treegrid-databinding-with-urladaptor\\javascript url adaptor\\remotesave\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|solutionrelative:remotesave\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|d:\\filter sample\\javascript-treegrid-databinding-with-urladaptor\\javascript url adaptor\\remotesave\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|solutionrelative:remotesave\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|d:\\filter sample\\javascript-treegrid-databinding-with-urladaptor\\javascript url adaptor\\remotesave\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|solutionrelative:remotesave\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|d:\\filter sample\\javascript-treegrid-databinding-with-urladaptor\\javascript url adaptor\\remotesave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BBEA5C46-0766-4E32-9105-0C838CD55A56}|RemoteSave\\RemoteSave.csproj|solutionrelative:remotesave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RemoteSave\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RemoteSave\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T08:09:00.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RemoteSave\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RemoteSave\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:07:01.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "RemoteSave\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "RemoteSave\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:06:58.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\packages.config",
+              "RelativeDocumentMoniker": "RemoteSave\\packages.config",
+              "ToolTip": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\packages.config",
+              "RelativeToolTip": "RemoteSave\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-27T08:06:41.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Web.config",
+              "RelativeDocumentMoniker": "RemoteSave\\Web.config",
+              "ToolTip": "D:\\Filter sample\\javascript-treegrid-databinding-with-urladaptor\\Javascript url adaptor\\RemoteSave\\Web.config",
+              "RelativeToolTip": "RemoteSave\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-27T08:06:40.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

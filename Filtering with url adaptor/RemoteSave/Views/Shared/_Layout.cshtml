@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+   @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/24.1.41/material.css" />
+    <script src="https://cdn.syncfusion.com/ej2/24.1.41/dist/ej2.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+               @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+           
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Html.EJS().ScriptManager();
+    @RenderSection("scripts", required: false)
+    <ejs-scripts></ejs-scripts>
+</body>
+</html>

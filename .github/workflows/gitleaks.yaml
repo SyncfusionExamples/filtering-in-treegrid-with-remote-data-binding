@@ -24,7 +24,7 @@ jobs:
        uses: nuget/setup-nuget@v2
        with:
           nuget-version: latest
-     - name: Install Mono
+     - name: Install the dotnet
        if: steps.gitleaks.outcome != 'success'
        run: |
         sudo apt update

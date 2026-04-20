@@ -32,12 +32,11 @@ Implement remote data binding:
 3. Set filtering
 
 ## Configuration
-- API Endpoint: API URL
-- Response Format: JSON
-- Filter Parameters: query filters
+- API Endpoint: `https://api.example.com/data` (replace with your API endpoint)
+- Response Format: JSON format with standard data structure
+- Filter Parameters: Pass filter criteria as query string parameters
 
 ## Documentation
 For detailed information and configuration options:
 
 https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/data-binding/remote-data#loadchildondemand
-

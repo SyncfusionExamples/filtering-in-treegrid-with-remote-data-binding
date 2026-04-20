@@ -1,45 +1,43 @@
 # filtering-in-treegrid-with-remote-data-binding
-
 ## Repository Description
+This repository demonstrates remote data binding for ASP.NET Core TreeGrid using Url adaptor. It showcases fetching data dynamically and enabling server-side filtering with different hierarchy modes.
 
-This sample demonstrates how to implement flexible filtering functionality in a TreeGrid control that uses remote data binding. The sample shows how users can apply filters to tree-structured rows while keeping the UI synchronized with a remote data source, preserving hierarchical relationships and enabling responsive, server-backed queries.
+## Overview
+Remote data binding with URL API efficiently loads large datasets without requiring all data in memory, enabling real-time updates.
 
-**Overview**
+## Features
+- URL API: connect to URL endpoints
+- Dynamic Binding: fetch from remote sources
+- Server-Side Filtering: filter data
+- Real-Time Updates: dynamic content
 
-The project provides a minimal, focused example of integrating client-side TreeGrid filtering with server-side data operations. It highlights common scenarios such as text and numeric filtering, how filter state is sent to the server, and how filtered results are returned and displayed while preserving parent-child relationships in the treegrid.
+## Prerequisites
+- .NET 6.0 or higher
+- Visual Studio or VS Code
+- ASP.NET Core SDK
+- C# knowledge
+- REST endpoint knowledge
 
-**Features**
-
-- Demonstrates client-initiated filtering with remote data binding
-- Preserves hierarchical tree structure while applying filters
-- Illustrates sending filter criteria to the server and rendering filtered results
-
-## Project prerequisites
-Before starting, ensure you have the following installed:
-- **Node.js**: Latest stable version
-- **Visual Studio**: Latest version recommended
-- **npm**: Node Package Manager (included with Node.js)
-- Basic knowledge of JavaScript
-- 
 ## Installation
+1. Clone repository
+2. Navigate to project directory
+3. Run `dotnet restore`
+4. Execute `dotnet build`
+5. Run `dotnet run`
 
-Clone and set up the project:
+## Usage
+Implement remote data binding:
+1. Create URL API endpoint returning JSON
+2. Configure treegrid with API URL
+3. Set filtering
 
-```
-git clone https://github.com/SyncfusionExamples/filtering-in-treegrid-with-remote-data-binding
-open the cloned project in visual studio
-Run the application
-```
-## Examples
-Explore Syncfusion EJ2 TreeGrid Remote data examples:
+## Configuration
+- API Endpoint: API URL
+- Response Format: JSON
+- Filter Parameters: query filters
 
-https://ej2.syncfusion.com/demos/#/fluent2/tree-grid/loadonchilddemand.html
+## Support
+Review examples, check [ASP.NET documentation](https://docs.microsoft.com/aspnet/core).
 
-## Documentation
- 
-For detailed information and configuration options:
-
-https://ej2.syncfusion.com/javascript/documentation/treegrid/data-binding/remote-data#loadchildondemand
-
-
-
+## License
+Educational use.

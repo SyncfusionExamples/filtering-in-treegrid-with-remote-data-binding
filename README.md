@@ -36,8 +36,8 @@ Implement remote data binding:
 - Response Format: JSON
 - Filter Parameters: query filters
 
-## Support
-Review examples, check [ASP.NET documentation](https://docs.microsoft.com/aspnet/core).
+## Documentation
+For detailed information and configuration options:
 
-## License
-Educational use.
+https://ej2.syncfusion.com/aspnetcore/documentation/tree-grid/data-binding/remote-data#loadchildondemand
+

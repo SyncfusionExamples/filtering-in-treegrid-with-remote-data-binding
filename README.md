@@ -1,10 +1,12 @@
 # filtering-in-treegrid-with-remote-data-binding
 
+## Repository Description
+
 This sample demonstrates how to implement flexible filtering functionality in a TreeGrid control that uses remote data binding. The sample shows how users can apply filters to tree-structured rows while keeping the UI synchronized with a remote data source, preserving hierarchical relationships and enabling responsive, server-backed queries.
 
 **Overview**
 
-The project provides a minimal, focused example of integrating client-side TreeGrid filtering with server-side data operations. It highlights common scenarios such as text and numeric filtering, how filter state is sent to the server, and how filtered results are returned and displayed while preserving parent-child relationships in the grid.
+The project provides a minimal, focused example of integrating client-side TreeGrid filtering with server-side data operations. It highlights common scenarios such as text and numeric filtering, how filter state is sent to the server, and how filtered results are returned and displayed while preserving parent-child relationships in the treegrid.
 
 **Features**
 
@@ -12,27 +14,32 @@ The project provides a minimal, focused example of integrating client-side TreeG
 - Preserves hierarchical tree structure while applying filters
 - Illustrates sending filter criteria to the server and rendering filtered results
 
-**Prerequisites**
+## Project prerequisites
+Before starting, ensure you have the following installed:
+- **Node.js**: Latest stable version
+- **Visual Studio**: Latest version recommended
+- **npm**: Node Package Manager (included with Node.js)
+- Basic knowledge of JavaScript
+- 
+## Installation
 
-- A compatible web application environment that supports the TreeGrid control and remote endpoints
-- A server endpoint that accepts filter parameters and returns filtered hierarchical data
+Clone and set up the project:
 
-**Installation & Usage**
+```
+git clone https://github.com/SyncfusionExamples/filtering-in-treegrid-with-remote-data-binding
+open the cloned project in visual studio
+Run the application
+```
+## Examples
+Explore Syncfusion EJ2 TreeGrid Remote data examples:
 
-Clone the repository, open the sample in your development environment, and run the web application. Use the TreeGrid UI to enter filter criteria; the grid will forward parameters to the configured remote endpoint and update rows according to the server response.
+https://ej2.syncfusion.com/demos/#/fluent2/tree-grid/loadonchilddemand.html
 
-**Configuration**
+## Documentation
+ 
+For detailed information and configuration options:
 
-Adjust the sample's remote data endpoint and any server-side query logic to match your backend. Ensure the server returns hierarchical results compatible with the TreeGrid's expected data shape.
+https://ej2.syncfusion.com/javascript/documentation/treegrid/data-binding/remote-data#loadchildondemand
 
-**Topics**
-
-- treegrid
-- filtering
-- remote-data-binding
-
-**Notes & Support**
-
-This sample is intended as a concise reference to understand remote filtering patterns for hierarchical grids. Adapt and extend the example to match your application's data model and server API.
 
 
